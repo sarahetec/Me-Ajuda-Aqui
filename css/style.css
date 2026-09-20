@@ -1,0 +1,193 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+    background-image: url("../img/fundo.ofc.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+ul, li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+.header{
+    background-color: #fffbf7;
+    position: relative;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header a img{
+      width: 70px;
+      height: auto;
+      margin: 0px;
+      padding: 0px;
+}
+.menu {
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+    position: absolute;
+    right: 30px;
+}
+.menu li{
+    margin-left: 10px;
+}
+.menu li a{
+    display: block;
+    padding: 10px;
+    background-color: #7b5c37;
+    color: white;
+}
+
+h1{
+    text-align: center;
+    margin-top: 100px;
+    color: #644a2a;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 880px;
+    margin: 20px auto;
+    column-gap: 80px;
+    row-gap: 20px;
+    color: #43311b;
+}
+.header > a img{
+    width: 150px;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+}
+.flex img{
+    width: 200px;
+    height: 150px;
+    margin: 5px;
+    padding: 5px;
+
+}
+.flex p{
+    width: 220px;
+    margin: 10px auto;
+}
+.flex p a{
+    display: block;
+    width: 100%;
+    min-height: 50px;
+    padding: 10px;
+    padding: 10px;
+    background-color: #7b5c37; 
+    color: white;
+    text-align: center;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+.nav{
+    position: absolute;
+    right: 20px;
+}
+.intro{
+    background-color: #7b5c37;
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 20px;
+    color: #eadccc;
+    text-align: justify;
+}
+.introducao{
+      background-color: #ab8d69;
+    max-width: 500px;
+    margin: 30px auto;
+    padding: 20px;
+    color: #614829;
+    text-align: center;
+}
+.flex div{
+    width: 240px;
+    border: 2px solid #7b5c37;
+    padding: 10px;
+    background-color: #ab8d69;
+    box-sizing: border-box;
+}
+.formulario{
+    max-width: 500px;
+    margin: 30px auto;
+    padding: 20px;;
+    background-color: #ab8d69;
+    border: 2px solid #7b5c37;
+}
+.formulario form{
+    display: flex;
+    flex-direction: column;
+    color: #43311b;
+}
+.formulario label{
+    margin-top: 10px;
+}
+.formulario input{
+    padding: 8px;
+}
+.formulario button{
+    margin-top: 15px;
+    padding: 8px;
+    background-color: #7b5c37;
+    color: rgb(255, 255, 255);
+    border: none;
+}
+.formulario h2{
+    color: #43311b;
+}
+.formulario textarea{
+    padding: 8px;
+    height: 100px;
+}
+footer {
+    background-color: #7b5c37;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+}
+.ajudas{
+    max-width: 900px;
+    margin: 30px auto;
+}
+.ajudas h2{
+    color: #614829;
+}
+.ajuda{
+    background-color: #ab8d69;
+    border: 2px solid #7b5c37;
+    padding: 20px;
+    margin-bottom: 20px;
+    color: #614829;
+}
+.ajuda h2{
+    color: #614829;
+}
+.ajuda a{
+    display: block;
+    padding: 10px;
+    background-color: #7b5c37;
+    text-align: center;
+    color: #fff;
+}
+.ajuda h3{
+    color: #43311b;
+}
+.flex p a:hover{
+    background-color: #6d512f;
+}
+.ajuda a:hover{
+    background-color: #5c4325;
+}
+.menu li a:hover{
+    background-color: #a88963;
+}
